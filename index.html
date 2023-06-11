@@ -5,22 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Dynaone - Inicio</title>
+    <link rel="stylesheet" href="CSS/css/bootstrap.css">
     <link rel="stylesheet" href="CSS/style.css"> <!-- Vinculo de CSS -->
-    <link rel="shortcun icon" href="images/icon.jpg">
+    <link rel="shortcut icon" href="images/icon.jpg">
 </head>
-
 <header>
     <h1 id="titulo1">Dynaone</h1> <!-- Titulo del emprendimiento -->
-    <nav> <!-- Barra de navagecion entre paginas -->
-        <ul class="barradenavegacion">
-            <li><a href="index.html"></a> Inicio</li>
-            <li><a href="pages/Productos.html">Productos</a></li>
-            <li><a href="pages/CarritoDeCompras.html" id="carritoBanner">Carrito de compras</a></li>
-            <li><a href="pages/Nosotros.html">Nosotros</a></li>
-            <li><a href="pages/Contacto.Html">Contacto</a></li>
-        </ul>
-    </nav>
-</header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Inicio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="pages/Contacto.Html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/CarritoDeCompras.html">Carrito</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/Nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/Productos.html">Productos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
 <main>
     <section class="banner"><!--Banner y foto-->
         <h2>Suplementos deportivos que marcan la diferencia del entrenamiento</h2>
@@ -46,7 +61,7 @@
                 <button>Agregar al Carrito</button>
             </div>
             <div class="productosDestacados">
-                <img src="images/creatinax150g.png" alt="Producto 6">
+                <img src="images/creatinax150g2.png" alt="Producto 6">
                 <h3>Creatina x 150gr</h3>
                 <p>La Creatina Pulver es un suplemento dietario a base de Creatina 100% pura que provee energía para ejercicios de alta intensidad y contribuye al crecimiento de la masa muscular.</p>
                 <span class="precio">$5.000</span>
@@ -104,5 +119,6 @@
 <footer> <!-- Barra de abajo con copyright/Instagram/Celular -->
     <p>&copy; Dynaone - <a href="https://www.instagram.com/dynaone/" target="_blank"> Instagram</a> Tel: 1168540103 </p>
 </footer>
+<script src="CSS/js/bootstrap.js"></script>
 </body>
 </html>

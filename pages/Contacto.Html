@@ -1,36 +1,52 @@
 <!DOCTYPE html>
 <html lang="es"> <!-- Idioma -->
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dynaone - Contacto</title>
-    <link rel="stylesheet" href="../CSS/style.css" />
-    <!-- Vinculo de CSS -->
-    <link rel="shortcun icon" href="../images/icon.jpg" />
-  </head>
-
-  <header>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Dynaone - Inicio</title>
+    <link rel="stylesheet" href="../CSS/css/bootstrap.css">
+    <link rel="stylesheet" href="../CSS/style.css"> <!-- Vinculo de CSS -->
+    <link rel="shortcut icon" href="../images/icon.jpg">
+</head>
+<header>
     <h1 id="titulo1">Dynaone</h1> <!-- Titulo del emprendimiento -->
-    <nav> <!-- Barra de navagecion entre paginas -->
-      <ul class="barradenavegacion">
-        <li><a href="../index.html">Inicio</a></li>
-        <li><a href="Productos.html">Productos</a></li>
-        <li><a href="CarritoDeCompras.html">Carrito de compras</a></li>
-        <li><a href="Nosotros.html">Nosotros</a></li>
-        <li><a href="Contacto.Html">Contacto</a></li>
-      </ul>
-    </nav>
-  </header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">Inicio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="Contacto.Html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="CarritoDeCompras.html">Carrito</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Productos.html">Productos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
   <main>
-    <section id="contacto"> <!-- Contacto para consultas y reclamos -->
+    <section id="contacto">
+      <!-- Contacto para consultas y reclamos -->
       <h1>Contacto</h1>
       <p>
         Si tienes alguna pregunta, consulta o reclamo, o simplemente quieres
         compartir tus consejos con nosotros, por favor completa el siguiente
         formulario:
       </p>
-      <form action="enviar.php" method="post"> <!-- No lo vincule, solo lo puse de ejemplo -->
+      <form action="enviar.php" method="post">
+        <!-- No lo vincule, solo lo puse de ejemplo -->
         <label for="nombre">Nombre:</label>
         <input type="text" id="nombre" name="nombre" required />
         <label for="email">Email:</label>
