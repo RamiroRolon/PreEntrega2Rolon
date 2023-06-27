@@ -1,0 +1,18 @@
+// variables
+$color_1: black;
+$color_2: #fff;
+$color_3: #333;
+$color_4: red;
+$color_5: white;
+$color_6: #999;
+$color_7: rgb(6, 5, 4);
+$font-family_1: Arial, sans-serif;
+$font-family_2: sans-serif;
+// mixin
+@mixin color {
+    background-color: #2ecc71;
+	color: $color_2;
+	border: none;
+	padding: 10px 20px;
+	cursor: pointer;
+}
