@@ -229,6 +229,14 @@ button:hover {
   display: block;
 }
 
+scroll-container {
+  display: block;
+  width: 254px;
+  height: 72px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
 /* Estilo de Productos.html */
 .cuerpoDeProductos {
   max-width: 800px;
