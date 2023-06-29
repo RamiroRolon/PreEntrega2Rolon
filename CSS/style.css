@@ -9,7 +9,7 @@ body {
 }
 
 header {
-  background-color: red;
+  background-color: rgb(95, 2, 2);
   padding: 20px;
 }
 header h1 {
@@ -44,8 +44,9 @@ nav li {
   font-weight: bold;
   font-family: sans-serif;
   text-shadow: 2px 2px #333;
-  background-color: red;
   padding: 0.5em;
+  align-items: center;
+  text-align: center;
 }
 
 .nav-link {

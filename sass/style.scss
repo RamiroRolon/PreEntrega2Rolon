@@ -9,7 +9,7 @@ body {
 	color: $color_1;
 }
 header {
-	background-color: red;
+	background-color: rgb(95, 2, 2);
 	padding: 20px;
 	h1 {
 		color: $color_2;
@@ -41,8 +41,9 @@ nav {
 	font-weight: bold;
 	font-family: $font-family_2;
 	text-shadow: 2px 2px #333;
-	background-color: red;
 	padding: 0.5em;
+	align-items: center;
+	text-align: center;
 }
 .nav-link {
 	color: $color_3;
