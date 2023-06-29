@@ -16,3 +16,17 @@ $font-family_2: sans-serif;
 	padding: 10px 20px;
 	cursor: pointer;
 }
+@mixin botonCompra {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	background-color: #c00;
+	color: $color_2;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+	&:hover {
+		background-color: #900;
+	}
+}

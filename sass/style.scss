@@ -154,24 +154,9 @@ nav {
 	margin-bottom: 0;
 }
 button {
-	background-color: #333;
-	border: none;
-	color: $color_2;
-	padding: 1em 2em;
-	cursor: pointer;
-	box-shadow: none;
-	background-color: rgb(254, 5, 21);
-	color: $color_2;
-	border: none;
-	padding: 0.5em 1em;
-	margin-top: 1em;
-	cursor: pointer;
-	font-size: 1em;
-	transition: background-color 0.3s ease;
-	&:hover {
-		background-color: rgb(9, 5, 3);
-	}
+	@include botonCompra
 }
+
 #productosDestacados {
 	background-color: #f2f2f2;
 	padding: 2em;
@@ -263,18 +248,7 @@ button {
 	font-weight: bold;
 }
 .add-to-cart-btn {
-	display: block;
-	width: 100%;
-	padding: 10px;
-	background-color: #c00;
-	color: $color_2;
-	border: none;
-	border-radius: 5px;
-	cursor: pointer;
-	transition: background-color 0.3s ease;
-	&:hover {
-		background-color: #900;
-	}
+	@include botonCompra
 }
 
 /* Estilo para el CarritoDeCompras.html */

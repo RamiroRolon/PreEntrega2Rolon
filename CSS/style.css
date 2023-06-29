@@ -169,23 +169,18 @@ nav li {
 }
 
 button {
-  background-color: #333;
-  border: none;
-  color: #fff;
-  padding: 1em 2em;
-  cursor: pointer;
-  box-shadow: none;
-  background-color: rgb(254, 5, 21);
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #c00;
   color: #fff;
   border: none;
-  padding: 0.5em 1em;
-  margin-top: 1em;
+  border-radius: 5px;
   cursor: pointer;
-  font-size: 1em;
   transition: background-color 0.3s ease;
 }
 button:hover {
-  background-color: rgb(9, 5, 3);
+  background-color: #900;
 }
 
 #productosDestacados {
